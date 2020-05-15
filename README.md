@@ -25,3 +25,7 @@ This has the advantage that you can install the Camel K instance on it, and so l
 ### Enjoy
 
 Open the java file and enjoy the Java completion. You can still enjoy the other existing features, see this [blog post](https://developers.redhat.com/blog/2020/01/24/apache-camel-k-development-inside-eclipse-che-iteration-1/).
+
+### Known issue
+
+Sometimes the java Language Server fails to start correctly. There will be red markers in the Java file. In this case, the workaround consists in calling the command (`View` -> `Find Command...`) called `Java: Clean the Java language server worksapce` and accept to `Restart and delete` from the notification appearing at the bottom.
