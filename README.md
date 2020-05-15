@@ -20,6 +20,8 @@ You can use your own Che instance using this url:
 https://<your-che-instance>/factory?url=https://github.com/apupier/camelk-on-che-with-java-support-example/raw/master/.che/devfile.yaml
 ```
 
+This has the advantage that you can install the Camel K instance on it, and so leverage also the deployment functionalities more easily.
+
 ### Enjoy
 
 Open the java file and enjoy the Java completion. You can still enjoy the other existing features, see this [blog post](https://developers.redhat.com/blog/2020/01/24/apache-camel-k-development-inside-eclipse-che-iteration-1/).
