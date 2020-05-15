@@ -1,0 +1,23 @@
+metadata:
+  generateName: apache-camel-k-
+projects:
+  - name: camel-k-example
+    source:
+      location: 'https://github.com/apupier/camelk-on-che-with-java-support-example'
+      type: git
+components:
+  - id: redhat/vscode-apache-camel/latest
+    type: chePlugin
+  - type: chePlugin
+    volumes:
+      - name: vscodeglobalstorage
+        containerPath: /home/theia/home/theia
+    reference: >-
+      https://raw.githubusercontent.com/apupier/camelk-on-che-with-java-support-example/master/.che/camelk-plugin-meta.yaml
+    alias: vscode-camelk
+  - type: chePlugin
+    volumes:
+      - name: vscodeglobalstorage
+        containerPath: /home/theia/home/theia
+    id: redhat/java/latest
+apiVersion: 1.0.0
