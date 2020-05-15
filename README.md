@@ -28,4 +28,4 @@ Open the java file and enjoy the Java completion. You can still enjoy the other 
 
 ### Known issue
 
-Sometimes the java Language Server fails to start correctly. There will be red markers in the Java file. In this case, the workaround consists in calling the command (`View` -> `Find Command...`) called `Java: Clean the Java language server worksapce` and accept to `Restart and delete` from the notification appearing at the bottom.
+Sometimes the java Language Server fails to start correctly. There will be red markers in the Java file. In this case, the workaround consists in calling the command (`View` -> `Find Command...`) called `Java: Clean the Java language server worksapce` and accept to `Restart and delete` from the notification appearing at the bottom. See upstream [issue](https://github.com/eclipse/che/issues/16945).
