@@ -13,7 +13,7 @@ components:
       - name: vscodeglobalstorage
         containerPath: /home/theia/home/theia
     reference: >-
-      https://raw.githubusercontent.com/apupier/camelk-on-che-with-java-support-example/master/.che/camelk-plugin-meta.yaml
+      https://raw.githubusercontent.com/apupier/camelk-on-che-with-java-support-example/with-preloadedDependencies/.che/camelk-plugin-meta.yaml
     alias: vscode-camelk
   - type: chePlugin
     volumes:
