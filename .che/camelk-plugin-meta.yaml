@@ -12,7 +12,7 @@ category: Language
 firstPublicationDate: '2020-03-24'
 spec:
   containers:
-  - image: "apupier/che-sidecar-camelk:0.0.13-withmaven"
+  - image: "apupier/che-sidecar-camelk:0.0.13-withmaven-and-deppreloaded"
     name: vscode-camelk
     memoryLimit: "1G"
   extensions:
