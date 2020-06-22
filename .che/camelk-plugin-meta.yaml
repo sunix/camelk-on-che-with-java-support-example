@@ -12,10 +12,12 @@ category: Language
 firstPublicationDate: '2020-03-24'
 spec:
   containers:
-  - image: "apupier/che-sidecar-camelk:0.0.13-withmaven-and-deppreloadedinsamestage"
+  - image: "apupier/che-sidecar-camelk:0.0.14-with-allextensionsinsamesidecar"
     name: vscode-camelk
-    memoryLimit: "1G"
+    memoryLimit: "2G"
   extensions:
-  - https://download.jboss.org/jbosstools/vscode/stable/vscode-camelk/vscode-camelk-0.0.13-403.vsix
-  - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-kubernetes-tools/vscode-kubernetes-tools-1.1.0.vsix
-  - https://github.com/redhat-developer/vscode-yaml/releases/download/0.7.2/redhat.vscode-yaml-0.7.2.vsix
+  - https://download.jboss.org/jbosstools/vscode/stable/vscode-camelk/vscode-camelk-0.0.14-622.vsix
+  - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-kubernetes-tools/vscode-kubernetes-tools-1.2.0.vsix
+  - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-yaml/vscode-yaml-0.8.0.vsix
+  - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-java-debug/vscode-java-debug-0.24.0.vsix
+  - https://download.jboss.org/jbosstools/static/jdt.ls/stable/java-0.57.0-2029.vsix
