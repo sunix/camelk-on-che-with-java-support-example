@@ -1,4 +1,4 @@
-FROM quay.io/eclipse/che-sidecar-kubernetes-tooling:1.2.0-cbde020
+FROM quay.io/eclipse/che-sidecar-camelk:0.0.14-59d258b
 
 # Maven is required to prepopulate Camel K dependencies. it also allows a faster VS Code Camel K extension execution as it doesn't need to download it when executed.
 ENV MAVEN_VERSION 3.6.3
@@ -13,11 +13,6 @@ ENV MAVEN_HOME /usr/share/maven
 RUN dnf -y update && \
     dnf -y install java-11-openjdk-devel && \
     dnf clean all;
-
-# Set kamel binary on path
-ENV KAMEL_VERSION 1.0.0
-RUN curl -L https://github.com/apache/camel-k/releases/download/${KAMEL_VERSION}/camel-k-client-${KAMEL_VERSION}-linux-64bit.tar.gz | tar -C /usr/local/bin -xz \
-    && chmod +x /usr/local/bin/kamel
 
 # Prepopulate Camel K dependencies folder used by VS Code Camel K and VS Code Java
 ENV DEFAULT_CAMEL_VERSION_CORRESPONDING_TO_KAMEL_VERSION 3.3.0
