@@ -10,6 +10,6 @@ components:
     type: chePlugin
   - type: chePlugin
     reference: >-
-      https://raw.githubusercontent.com/apupier/camelk-on-che-with-java-support-example/with-allextensionsinsamesidecar/.che/camelk-plugin-meta.yaml
+      https://raw.githubusercontent.com/apupier/camelk-on-che-with-java-support-example/master/.che/camelk-plugin-meta.yaml
     alias: vscode-camelk
 apiVersion: 1.0.0
