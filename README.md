@@ -12,12 +12,12 @@ Example to have java support on Che 7.11+ (awaiting for a built-in version).
 
 ### Start the workspace
 
-Start the workspace: [![Contribute](https://che.openshift.io/factory/resources/factory-contribute.svg)](https://che.openshift.io/factory?url=https://github.com/apupier/camelk-on-che-with-java-support-example/raw/with-allextensionsinsamesidecar/.che/devfile.yaml) to open on che.openshift.io.
+Start the workspace: [![Contribute](https://che.openshift.io/factory/resources/factory-contribute.svg)](https://che.openshift.io/factory?url=https://github.com/apupier/camelk-on-che-with-java-support-example/raw/master/.che/devfile.yaml) to open on che.openshift.io.
 
 You can use your own Che instance using this url:
 
 ```
-https://<your-che-instance>/factory?url=https://github.com/apupier/camelk-on-che-with-java-support-example/raw/with-allextensionsinsamesidecar/.che/devfile.yaml
+https://<your-che-instance>/factory?url=https://github.com/apupier/camelk-on-che-with-java-support-example/raw/master/.che/devfile.yaml
 ```
 
 This has the advantage that you can install the Camel K instance on it, and so leverage also the deployment functionalities more easily.
@@ -26,6 +26,6 @@ This has the advantage that you can install the Camel K instance on it, and so l
 
 Open the java file and enjoy the Java completion. You can still enjoy the other existing features, see this [blog post](https://developers.redhat.com/blog/2020/01/24/apache-camel-k-development-inside-eclipse-che-iteration-1/).
 
-### Known issue
+### Limitation
 
-Sometimes the java Language Server fails to start correctly. There will be red markers in the Java file. In this case, the workaround consists in calling the command (`View` -> `Find Command...`) called `Java: Clean the Java language server worksapce` and accept to `Restart and delete` from the notification appearing at the bottom. See upstream [issue](https://github.com/eclipse/che/issues/16945).
+This is an proof of concept. It will be hard to maintain. See [CONTRIBUTIONG.MD](./CONTRIBUTIONG.MD) fo rmore details.
