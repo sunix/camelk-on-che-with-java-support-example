@@ -3,13 +3,13 @@ publisher: redhat
 name: vscode-camelk
 version: 0.0.13
 type: VS Code extension
-displayName: Tooling for Apache Camel K for Java support
-title: Tooling for Apache Camel K
+displayName: Tooling for Apache Camel K with Java support
+title: Tooling for Apache Camel K with Java support
 description: Support for Apache Camel K functionality
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 repository: https://github.com/camel-tooling/vscode-camelk
 category: Language
-firstPublicationDate: '2020-03-24'
+firstPublicationDate: '2020-06-23'
 spec:
   containers:
   - image: "apupier/che-sidecar-camelk:0.0.14-with-allextensionsinsamesidecar"
