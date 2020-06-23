@@ -28,4 +28,4 @@ Open the java file and enjoy the Java completion. You can still enjoy the other 
 
 ### Limitation
 
-This is an proof of concept. It will be hard to maintain. See [CONTRIBUTIONG.MD](./CONTRIBUTIONG.MD) fo rmore details.
+This is a proof of concept. It will be hard to maintain. See [CONTRIBUTIONG.MD](./CONTRIBUTIONG.MD) for more details.
