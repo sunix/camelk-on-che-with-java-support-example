@@ -12,7 +12,7 @@ Example to have java support on Che 7.11+ (awaiting for a built-in version).
 
 ### Start the workspace
 
-Start the workspace: [![Contribute](https://www.eclipse.org/che/factory-contribute.svg)](https://che.openshift.io/factory?url=https://github.com/apupier/camelk-on-che-with-java-support-example/raw/master/.che/devfile.yaml) to open on che.openshift.io.
+Start the workspace: [![Contribute](https://www.eclipse.org/che/contribute.svg)](https://che.openshift.io/factory?url=https://github.com/apupier/camelk-on-che-with-java-support-example/raw/master/.che/devfile.yaml) to open on che.openshift.io.
 
 You can use your own Che instance using this url:
 
